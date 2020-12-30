@@ -22,15 +22,11 @@ int main()
   UnionKu data;
   data.x =10;
   
-  cout<<"Nim  : ";
-  cin.getline(Mhs.Nim,20);
-  cout<<"Nama  : ";
-  cin.getline(Mhs.Nama,25);
-  cout<<"Alamat  : ";
-  cin.getline(Mhs.Alamat,40);
+  cout<<"Nim  : ";cin.getline(Mhs.Nim,20);
+  cout<<"Nama  : ";cin.getline(Mhs.Nama,25);
+  cout<<"Alamat  : "; cin.getline(Mhs.Alamat,40);
    fflush(stdin);
-  cout<<"Umur  : ";
-  cin>>Mhs.Umur;
+  cout<<"Umur  : ";cin>>Mhs.Umur;
   // fflush(stdin);
    
   cout<<"\n\n\nNim  : "<<Mhs.Nim<<" Nama  : "<<Mhs.Nama
