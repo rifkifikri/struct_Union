@@ -7,8 +7,9 @@ struct menghitung
 	float jarijari;
 	float keliling;
 	float luas;
-}lingkaran;
+};
 int main(){
+	menghitung lingkaran;
 	char pilihan;
 	do{
 	float input;
